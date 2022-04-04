@@ -1,6 +1,42 @@
-# Getting Started with Create React App
+# Frontend side messenger
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+project description
+
+## Main Technologies
+
+Listing the stack of technologies used on the project
+
+## Project structure
+
+In the following image we see the "basic logic" that was implemented in the server application.
+
+<p align="center">
+  <img src= ''>
+</p>
+
+## Instruction
+
+### Getting started
+
+To get started with the project, the developer has to perform the following steps to get
+the server up and running, the steps are carefully explained below.
+
+<details><summary><b>Show steps</b></summary>
+
+### Installing dependencies
+
+To install the dependencies required in the project, the developer should navigate to the project folder and run the
+following command in the terminal.
+
+<details><summary><b>Show code</b></summary>
+
+In the terminal run:
+
+```shell
+$npm install
+```
+
+</details>
 
 ## Available Scripts
 
@@ -13,11 +49,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -39,32 +70,55 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Generating documentation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To generate documentation for the project, the developer should navigate to the project
+folder and run the following command in the terminal.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<details><summary><b>Show code</b></summary>
 
-### Code Splitting
+In the terminal run:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```shell
+$npm run doc
+```
 
-### Analyzing the Bundle Size
+After the documentation has been successfully generated, a new `docs` folder appears.
+The developer should navigate to the `docs` folder and open the index.html in their browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+</details>
 
-### Making a Progressive Web App
+## Testing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Test with hapi/lab and code
 
-### Advanced Configuration
+<details><summary><b>Show code</b></summary>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+In the terminal run:
 
-### Deployment
+```shell
+$npm run test
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+</details>
 
-### `npm run build` fails to minify
+## CHANGELOG HISTORY
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[CHANGELOG](https://github.com/REPOSITORY_NAME/PROJECT_NAME/blob/develop/CHANGELOG.md)
+
+### link to changelog
+
+## Authors
+
+Nick - **BuGalter**
+
+Name - _Valery Yakubchik_
+
+## License
+
+Этот проект лицензируется в соответствии с лицензией Apache License 2.0 — подробности
+см. в файле LICENSE.
+
+## Copyright
+
+Copyright © 2022 [BuGalter](github).
