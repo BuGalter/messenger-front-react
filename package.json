@@ -1,6 +1,7 @@
 {
   "name": "messenger-front-react",
   "version": "0.1.0",
+  "description": "Frontend for messenger on React",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
@@ -15,8 +16,16 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint ."
   },
+  "keywords": [
+    "JavaScript",
+    "JS",
+    "React"
+  ],
+  "author": "BuGalter <wardoc78@gmail.com>",
+  "license": "Apache-2.0",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -34,5 +43,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.4.0",
+    "prettier": "2.6.2"
   }
 }
